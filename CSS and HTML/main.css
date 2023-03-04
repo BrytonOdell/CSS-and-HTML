@@ -1,0 +1,35 @@
+html, h1, a, h3 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 3500px;
+    background-color: aquamarine;
+}
+#head {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lefthead {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+.right a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.image {
+    width: fit-content;
+    height: fit-content;
+    background: #000000 url(/images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+
+}
